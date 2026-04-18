@@ -139,7 +139,6 @@ def group_corners(segments):
 def compute_corner_speeds(segments, compound, deg, tyre_props, weather_cond, crawl, v_max):
     """Corner speeds based on current degradation-adjusted friction.
     Consecutive corners take the min speed of the group (can't accelerate in a corner).
-    Uses the CURRENT deg; for better accuracy we'd re-derate as we wear through the lap.
     """
     friction = compute_friction(compound, deg, tyre_props, weather_cond)
     n = len(segments)
@@ -192,11 +191,61 @@ def best_tyre_for_weather(tyre_props, weather_cond):
     return best_name, best_mult
 
 
+def build_corner_groups(segments):
+    """
+    Returns a dict mapping segment_index -> list of all segment indices in its
+    consecutive corner group. Mirrors the lvl1 group_corners logic so that
+    back-to-back corners are all constrained to the same (minimum) speed.
+    """
+    n = len(segments)
+    corner_group_of = {}
+    i = 0
+    while i < n:
+        if segments[i]["type"] == "corner":
+            j = i
+            while j < n and segments[j]["type"] == "corner":
+                j += 1
+            group = list(range(i, j))
+            for k in group:
+                corner_group_of[k] = group
+            i = j
+        else:
+            i += 1
+    return corner_group_of
+
+
+def group_min_corner_speed(group_idxs, segments, friction, crawl, v_max):
+    """Minimum safe speed across all corners in a consecutive group."""
+    caps = [corner_max_speed(friction, segments[k]["radius_m"], crawl, v_max)
+            for k in group_idxs]
+    return min(caps)
+
+
+def next_group_min_speed(from_idx, segments, corner_group_of, friction, crawl, v_max):
+    """
+    Starting after from_idx, find the next corner group and return its min speed.
+    Wraps around the lap if necessary. Mirrors lvl1's look-ahead logic.
+    """
+    n = len(segments)
+    for j in range(from_idx + 1, n):
+        if segments[j]["type"] == "corner":
+            return group_min_corner_speed(corner_group_of[j], segments, friction, crawl, v_max)
+    # Wrap around
+    for j in range(0, from_idx + 1):
+        if segments[j]["type"] == "corner":
+            return group_min_corner_speed(corner_group_of[j], segments, friction, crawl, v_max)
+    return v_max  # no corners on track at all
+
+
 def simulate_lap(segments, compound, start_deg, tyre_props, weather_cond,
                  v_in, v_max, accel, brake, crawl, life_span):
     """Simulate one lap with degradation accumulating segment by segment.
     Returns (time, fuel_used, exit_speed, end_deg, lap_segs, blew_out)
     where blew_out indicates a blowout during the lap.
+
+    Consecutive corners are treated as a group (minimum speed of the group),
+    exactly as in lvl1, so we never crash into a tighter corner after a
+    looser one in the same sequence.
     """
     deg = start_deg
     v = v_in
@@ -207,14 +256,17 @@ def simulate_lap(segments, compound, start_deg, tyre_props, weather_cond,
     deg_rate = tyre_props[WEATHER_DEG_KEYS[weather_cond]]
     blew_out = False
 
+    # Precompute which group each corner belongs to (static track structure).
+    corner_group_of = build_corner_groups(segments)
+
     for i, seg in enumerate(segments):
-        # Refresh friction-based corner speeds each segment (as deg grows)
+        # Refresh friction each segment as degradation grows.
         friction = compute_friction(compound, deg, tyre_props, weather_cond)
 
         if seg["type"] == "corner":
-            cs = corner_max_speed(friction, seg["radius_m"], crawl, v_max)
-            # Corner speed is constant through the corner; entry speed carries.
-            # We should not exceed cs; if v > cs we'd crash, but planner sets v <= cs.
+            # Use group minimum speed — crucial for back-to-back corners.
+            group = corner_group_of[i]
+            cs = group_min_corner_speed(group, segments, friction, crawl, v_max)
             use_speed = min(v, cs)
             total_t += seg["length_m"] / use_speed
             total_f += fuel_for_phase(use_speed, use_speed, seg["length_m"])
@@ -223,31 +275,18 @@ def simulate_lap(segments, compound, start_deg, tyre_props, weather_cond,
             lap_segs.append({"id": seg["id"], "type": "corner"})
             if deg >= life_span:
                 blew_out = True
-                # Remainder of lap in limp mode; skip detailed tracking
-                # For simplicity, approximate remainder at limp speed (handled by caller).
                 break
             continue
 
-        # Straight: find next corner's speed (this lap, or wrap).
-        next_cs = None
-        for j in range(i + 1, n):
-            if segments[j]["type"] == "corner":
-                # Speed at that corner will be constrained by future friction; use current
-                next_cs = corner_max_speed(friction, segments[j]["radius_m"], crawl, v_max)
-                break
-        if next_cs is None:
-            for j in range(0, i):
-                if segments[j]["type"] == "corner":
-                    next_cs = corner_max_speed(friction, segments[j]["radius_m"], crawl, v_max)
-                    break
-        if next_cs is None:
-            next_cs = v_max
+        # Straight: look ahead to the NEXT CORNER GROUP and use its min speed
+        # so we don't arrive too fast at the second (tighter) corner in a group.
+        next_cs = next_group_min_speed(i, segments, corner_group_of, friction, crawl, v_max)
 
         length = seg["length_m"]
         v0 = v
         target = v_max
 
-        # Compute accel/cruise/brake phases
+        # Compute accel/cruise/brake phases.
         if v0 >= target:
             d_brake = (v0 ** 2 - next_cs ** 2) / (2 * brake)
             d_cruise = length - d_brake
@@ -275,7 +314,6 @@ def simulate_lap(segments, compound, start_deg, tyre_props, weather_cond,
                 total_t += (target - v0) / accel + d_cruise / target + (target - next_cs) / brake
                 total_f += fuel_for_phase(v0, target, d_accel)
                 total_f += fuel_for_phase(target, target, d_cruise)
-                # Accel is not in any degradation formula explicitly, treat as straight cruise
                 deg += deg_straight_cruise(d_accel + d_cruise, deg_rate)
                 deg += deg_braking(target, next_cs, deg_rate)
                 v = next_cs
