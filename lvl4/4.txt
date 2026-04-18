@@ -1,0 +1,220 @@
+{
+  "car": {
+    "max_speed_m/s": 90,
+    "accel_m/se2": 10,
+    "brake_m/se2": 20,
+    "limp_constant_m/s": 20,
+    "crawl_constant_m/s": 10,
+    "fuel_tank_capacity_l": 150.0,
+    "initial_fuel_l": 150.0,
+    "fuel_consumption_l/m": 0.0005
+  },
+  "race": {
+    "name": "Entelect GP Level 4",
+    "laps": 80,
+    "base_pit_stop_time_s": 20.0,
+    "pit_tyre_swap_time_s": 3.0,
+    "pit_refuel_rate_l/s": 5.0,
+    "corner_crash_penalty_s": 10.0,
+    "pit_exit_speed_m/s": 20.0,
+    "fuel_soft_cap_limit_l": 611,
+    "starting_weather_condition_id": 1,
+    "time_reference_s": 50800.0
+  },
+  "track": {
+    "name": "Circuit de Monaco",
+    "segments": [
+      { "id": 1, "type": "straight", "length_m": 900 },
+      { "id": 2, "type": "corner", "radius_m": 55, "length_m": 115 },
+      { "id": 3, "type": "corner", "radius_m": 75, "length_m": 135 },
+      { "id": 4, "type": "straight", "length_m": 680 },
+      { "id": 5, "type": "corner", "radius_m": 80, "length_m": 140 },
+      { "id": 6, "type": "straight", "length_m": 850 },
+      { "id": 7, "type": "corner", "radius_m": 65, "length_m": 125 },
+      { "id": 8, "type": "straight", "length_m": 720 },
+      { "id": 9, "type": "corner", "radius_m": 50, "length_m": 110 },
+      { "id": 10, "type": "straight", "length_m": 800 },
+      { "id": 11, "type": "corner", "radius_m": 90, "length_m": 150 },
+      { "id": 12, "type": "corner", "radius_m": 55, "length_m": 120 },
+      { "id": 13, "type": "straight", "length_m": 670 },
+      { "id": 14, "type": "corner", "radius_m": 70, "length_m": 130 },
+      { "id": 15, "type": "straight", "length_m": 860 },
+      { "id": 16, "type": "corner", "radius_m": 80, "length_m": 140 },
+      { "id": 17, "type": "corner", "radius_m": 60, "length_m": 125 },
+      { "id": 18, "type": "corner", "radius_m": 50, "length_m": 135 },
+      { "id": 19, "type": "straight", "length_m": 900 },
+      { "id": 20, "type": "straight", "length_m": 710 },
+      { "id": 21, "type": "corner", "radius_m": 65, "length_m": 130 },
+      { "id": 22, "type": "straight", "length_m": 820 },
+      { "id": 23, "type": "corner", "radius_m": 85, "length_m": 145 },
+      { "id": 24, "type": "straight", "length_m": 760 },
+      { "id": 25, "type": "corner", "radius_m": 50, "length_m": 105 },
+      { "id": 26, "type": "straight", "length_m": 880 },
+      { "id": 27, "type": "corner", "radius_m": 70, "length_m": 135 },
+      { "id": 28, "type": "corner", "radius_m": 55, "length_m": 115 },
+      { "id": 29, "type": "straight", "length_m": 690 },
+      { "id": 30, "type": "straight", "length_m": 800 },
+      { "id": 31, "type": "corner", "radius_m": 95, "length_m": 155 },
+      { "id": 32, "type": "corner", "radius_m": 60, "length_m": 125 },
+      { "id": 33, "type": "straight", "length_m": 860 },
+      { "id": 34, "type": "corner", "radius_m": 70, "length_m": 130 },
+      { "id": 35, "type": "straight", "length_m": 720 },
+      { "id": 36, "type": "corner", "radius_m": 75, "length_m": 135 },
+      { "id": 37, "type": "straight", "length_m": 850 },
+      { "id": 38, "type": "corner", "radius_m": 65, "length_m": 130 },
+      { "id": 39, "type": "straight", "length_m": 780 },
+      { "id": 40, "type": "corner", "radius_m": 55, "length_m": 115 },
+      { "id": 41, "type": "corner", "radius_m": 80, "length_m": 140 },
+      { "id": 42, "type": "corner", "radius_m": 40, "length_m": 110 },
+      { "id": 43, "type": "straight", "length_m": 900 },
+      { "id": 44, "type": "straight", "length_m": 820 },
+      { "id": 45, "type": "corner", "radius_m": 85, "length_m": 145 },
+      { "id": 46, "type": "straight", "length_m": 710 },
+      { "id": 47, "type": "straight", "length_m": 860 },
+      { "id": 48, "type": "corner", "radius_m": 70, "length_m": 130 },
+      { "id": 49, "type": "straight", "length_m": 760 },
+      { "id": 50, "type": "corner", "radius_m": 50, "length_m": 105 }
+    ]
+  },
+  "tyres": {
+    "properties": {
+      "Soft": {
+        "life_span": 1,
+        "dry_friction_multiplier": 1.18,
+        "cold_friction_multiplier": 1.00,
+        "light_rain_friction_multiplier": 0.92,
+        "heavy_rain_friction_multiplier": 0.80,
+        "dry_degradation": 0.11,
+        "cold_degradation": 0.09,
+        "light_rain_degradation": 0.12,
+        "heavy_rain_degradation": 0.13
+      },
+      "Medium": {
+        "life_span": 1,
+        "dry_friction_multiplier": 1.08,
+        "cold_friction_multiplier": 0.97,
+        "light_rain_friction_multiplier": 0.88,
+        "heavy_rain_friction_multiplier": 0.74,
+        "dry_degradation": 0.10,
+        "cold_degradation": 0.08,
+        "light_rain_degradation": 0.09,
+        "heavy_rain_degradation": 0.10
+      },
+      "Hard": {
+        "life_span": 1,
+        "dry_friction_multiplier": 0.98,
+        "cold_friction_multiplier": 0.92,
+        "light_rain_friction_multiplier": 0.82,
+        "heavy_rain_friction_multiplier": 0.68,
+        "dry_degradation": 0.07,
+        "cold_degradation": 0.06,
+        "light_rain_degradation": 0.07,
+        "heavy_rain_degradation": 0.08
+      },
+      "Intermediate": {
+        "life_span": 1,
+        "dry_friction_multiplier": 0.90,
+        "cold_friction_multiplier": 0.96,
+        "light_rain_friction_multiplier": 1.08,
+        "heavy_rain_friction_multiplier": 1.02,
+        "dry_degradation": 0.14,
+        "cold_degradation": 0.11,
+        "light_rain_degradation": 0.08,
+        "heavy_rain_degradation": 0.09
+      },
+      "Wet": {
+        "life_span": 1,
+        "dry_friction_multiplier": 0.72,
+        "cold_friction_multiplier": 0.88,
+        "light_rain_friction_multiplier": 1.02,
+        "heavy_rain_friction_multiplier": 1.20,
+        "dry_degradation": 0.16,
+        "cold_degradation": 0.12,
+        "light_rain_degradation": 0.09,
+        "heavy_rain_degradation": 0.05
+      }
+    }
+  },
+  "available_sets": [
+    {
+      "ids": [1,2],
+      "compound": "Soft"
+    },
+    {
+      "ids": [3,4],
+      "compound": "Medium"
+    },
+    {
+      "ids": [5],
+      "compound": "Hard"
+    },
+    {
+      "ids": [6,7],
+      "compound": "Intermediate"
+    },
+    {
+      "ids": [8,9],
+      "compound": "Wet"
+    }
+  ],
+  "weather": {
+    "conditions": [
+      {
+        "id": 1,
+        "condition": "cold",
+        "duration_s": 1000.0,
+        "acceleration_multiplier": 0.95,
+        "deceleration_multiplier": 0.95
+      },
+      {
+        "id": 2,
+        "condition": "light_rain",
+        "duration_s": 3000.0,
+        "acceleration_multiplier": 0.80,
+        "deceleration_multiplier": 0.80
+      },
+      {
+        "id": 3,
+        "condition": "heavy_rain",
+        "duration_s": 2000.0,
+        "acceleration_multiplier": 0.70,
+        "deceleration_multiplier": 0.70
+      },
+      {
+        "id": 4,
+        "condition": "dry",
+        "duration_s": 6000.0,
+        "acceleration_multiplier": 1,
+        "deceleration_multiplier": 1
+      },
+      {
+        "id": 5,
+        "condition": "cold",
+        "duration_s": 1000.0,
+        "acceleration_multiplier": 0.95,
+        "deceleration_multiplier": 0.95
+      },
+      {
+        "id": 6,
+        "condition": "heavy_rain",
+        "duration_s": 1000.0,
+        "acceleration_multiplier": 0.70,
+        "deceleration_multiplier": 0.70
+      },
+      {
+        "id": 7,
+        "condition": "light_rain",
+        "duration_s": 2000.0,
+        "acceleration_multiplier": 0.80,
+        "deceleration_multiplier": 0.80
+      },
+      {
+        "id": 8,
+        "condition": "heavy_rain",
+        "duration_s": 6000.0,
+        "acceleration_multiplier": 0.70,
+        "deceleration_multiplier": 0.70
+      }
+    ]
+  }
+}
