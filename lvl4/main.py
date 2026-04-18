@@ -42,7 +42,7 @@ from collections import defaultdict
 
 # ---------- Physics constants ----------
 G = 9.8
-SAFETY_MARGIN = 0.2          # m/s below max corner speed (a bit more conservative for L4)
+SAFETY_MARGIN = 1.0          # m/s below max corner speed — stay clear of judge's limit
 K_BASE = 0.0005              # L/m base fuel
 K_DRAG = 0.0000000015        # L/m per (m/s)^2 drag-fuel
 K_STRAIGHT = 0.0000166
@@ -63,9 +63,9 @@ BASE_FRICTION = {
 FRICTION_MODE = "lvl3_compat"
 
 # How close to life_span to allow before forcing a pit.
-BLOWOUT_SAFETY = 0.10        # keep at least 10% headroom before forcing a pit
-WEAR_CEILING = 0.93          # max deg per set we aim to reach
-WEAR_TARGET_LATE = 0.82      # in late-race finisher, pit earlier to leave margin
+BLOWOUT_SAFETY = 0.18        # keep at least 18% headroom before forcing a pit
+WEAR_CEILING = 0.82          # max deg per set we aim to reach before swapping
+WEAR_TARGET_LATE = 0.75      # in late-race finisher, pit earlier to leave margin
 
 WEATHER_FRICTION_KEYS = {
     "dry": "dry_friction_multiplier",
@@ -97,7 +97,7 @@ def compute_friction(compound, deg, tyre_props, weather_cond):
 
 
 def corner_max_speed(friction, radius, crawl, v_max, margin=SAFETY_MARGIN):
-    v = math.sqrt(max(friction, 0.0) * G * radius) + crawl
+    v = math.sqrt(max(friction, 0.0) * G * radius)
     v = min(v, v_max) - margin
     return max(v, crawl)
 
