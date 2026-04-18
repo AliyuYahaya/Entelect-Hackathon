@@ -374,6 +374,7 @@ def solve(config, pit_laps=(20, 40)):
     return output, diagnostics
 
 
+    
 if __name__ == "__main__":
     cfg = load_config(os.path.join(os.path.dirname(__file__), "2.txt"))
 
