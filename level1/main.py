@@ -107,32 +107,26 @@ def parse_json(filepath):
 # ── Physics Functions ──────────────────────────────────────────────
 
 def calculate_best_tyre_set(available_sets, tyres, weather_condition):
-    """Pick the tyre with highest friction for the given weather."""
     best_set = None
     best_friction = -1
-
     for tyre_set in available_sets:
         tyre = tyres[tyre_set.compound]
         friction = tyre.friction_multipliers[weather_condition.condition]
         if friction > best_friction:
             best_friction = friction
             best_set = tyre_set
-
     return best_set
 
 def calculate_tyre_friction(tyre, weather_condition, total_degradation=0.0):
-    """Current tyre friction accounting for degradation."""
     multiplier = tyre.friction_multipliers[weather_condition.condition]
     return (tyre.life_span - total_degradation) * multiplier
 
 def calculate_max_corner_speed(car, segment, tyre, weather_condition, total_degradation=0.0):
-    """Max speed the car can safely take a corner at."""
     tyre_friction = calculate_tyre_friction(tyre, weather_condition, total_degradation)
     max_corner_speed = math.sqrt(tyre_friction * GRAVITY * segment.radius) + car.crawl_speed
     return min(max_corner_speed, car.max_speed)
 
 def calculate_braking_distance(car, initial_speed, final_speed, weather_condition):
-    """Distance needed to brake from initial_speed down to final_speed."""
     deceleration = car.brake * weather_condition.deceleration_multiplier
     if deceleration <= 0:
         return float('inf')
@@ -140,7 +134,6 @@ def calculate_braking_distance(car, initial_speed, final_speed, weather_conditio
     return max(braking_distance, 0.0)
 
 def calculate_acceleration_distance(car, initial_speed, target_speed, weather_condition):
-    """Distance needed to accelerate from initial_speed up to target_speed."""
     acceleration = car.accel * weather_condition.acceleration_multiplier
     if acceleration <= 0:
         return float('inf')
@@ -150,31 +143,25 @@ def calculate_acceleration_distance(car, initial_speed, target_speed, weather_co
     return (target_speed ** 2 - initial_speed ** 2) / (2 * acceleration)
 
 def calculate_straight_target_speed(car, segment, next_corner_speed, weather_condition, entry_speed):
-    """
-    Work out the optimal target speed for a straight.
-    We want to go as fast as possible but must arrive at the corner
-    at next_corner_speed. Returns (target_speed, brake_start_m_before_next).
-    """
-    # Braking distance needed to slow from max_speed to corner speed
-    braking_dist = calculate_braking_distance(car, car.max_speed, next_corner_speed, weather_condition)
+    accel = car.accel * weather_condition.acceleration_multiplier
+    brake = car.brake * weather_condition.deceleration_multiplier
 
-    # Can we fit braking within the straight?
-    if braking_dist >= segment.length:
-        # Not enough room — target speed is limited
-        # Find max speed we can reach and still brake in time
-        # v^2 = u^2 + 2as for accel, then brake: solve for peak speed
-        # v_peak^2 = (entry^2 * brake + corner^2 * accel) / (accel + brake)
-        accel = car.accel * weather_condition.acceleration_multiplier
-        brake = car.brake * weather_condition.deceleration_multiplier
-        v_peak_sq = (entry_speed ** 2 * brake + next_corner_speed ** 2 * accel) / (accel + brake)
+    # Distance to accelerate from entry to max speed
+    accel_dist = calculate_acceleration_distance(car, entry_speed, car.max_speed, weather_condition)
+    # Distance to brake from max speed to corner speed
+    brake_dist = calculate_braking_distance(car, car.max_speed, next_corner_speed, weather_condition)
+
+    if accel_dist + brake_dist <= segment.length:
+        # Enough room to hit max speed
+        target_speed = car.max_speed
+        brake_start = brake_dist
+    else:
+        # Not enough room — find peak speed given entry speed and segment length
+        v_peak_sq = (entry_speed ** 2 * brake + next_corner_speed ** 2 * accel + 2 * accel * brake * segment.length) / (accel + brake)
         target_speed = min(math.sqrt(max(v_peak_sq, 0)), car.max_speed)
         brake_start = calculate_braking_distance(car, target_speed, next_corner_speed, weather_condition)
-    else:
-        target_speed = car.max_speed
-        brake_start = braking_dist
 
     return round(target_speed, 2), round(brake_start, 2)
-
 # ── Strategy ──────────────────────────────────────────────────────
 
 def build_lap_segments(car, segments, tyre, weather_condition, lap_num, entry_speed=0.0):
@@ -182,14 +169,10 @@ def build_lap_segments(car, segments, tyre, weather_condition, lap_num, entry_sp
 
     for i, segment in enumerate(segments):
         if segment.type == SegmentType.STRAIGHT:
-            next_corner = None
-            for j in range(i + 1, len(segments)):
-                if segments[j].type == SegmentType.CORNER:
-                    next_corner = segments[j]
-                    break
+            next_segment = segments[i + 1] if i + 1 < len(segments) else None
 
-            if next_corner:
-                corner_speed = calculate_max_corner_speed(car, next_corner, tyre, weather_condition)
+            if next_segment and next_segment.type == SegmentType.CORNER:
+                corner_speed = calculate_max_corner_speed(car, next_segment, tyre, weather_condition)
             else:
                 corner_speed = car.crawl_speed
 
@@ -216,6 +199,7 @@ def build_lap_segments(car, segments, tyre, weather_condition, lap_num, entry_sp
             })
 
     return result
+
 # ── Output ────────────────────────────────────────────────────────
 
 def build_output(race, segments, tyre_set, car, tyres, available_sets, weather):
@@ -239,6 +223,7 @@ def build_output(race, segments, tyre_set, car, tyres, available_sets, weather):
         "initial_tyre_id": tyre_set.ids[0],
         "laps": laps
     }
+
 # ── Main ──────────────────────────────────────────────────────────
 
 def main():
