@@ -1,0 +1,7807 @@
+{
+  "initial_tyre_id": 1,
+  "laps": [
+    {
+      "lap": 1,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 2,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 3,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 4,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 5,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 6,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 7,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 8,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 9,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 10,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 11,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 12,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 13,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 14,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 15,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 16,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 17,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 18,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 19,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 20,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 21,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 22,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": true,
+        "fuel_refuel_amount_l": 115.68
+      }
+    },
+    {
+      "lap": 23,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 24,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 25,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 26,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 27,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 28,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 29,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 30,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 31,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 32,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 33,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 34,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 35,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 36,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 37,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 38,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 39,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 40,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 41,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 42,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": true,
+        "fuel_refuel_amount_l": 49.82
+      }
+    },
+    {
+      "lap": 43,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 44,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 45,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 46,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 47,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 48,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 49,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 50,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 51,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 52,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 53,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 54,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 55,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 56,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 57,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 58,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 59,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    },
+    {
+      "lap": 60,
+      "segments": [
+        {
+          "id": 1,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 2,
+          "type": "corner"
+        },
+        {
+          "id": 3,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 175.75
+        },
+        {
+          "id": 4,
+          "type": "corner"
+        },
+        {
+          "id": 5,
+          "type": "corner"
+        },
+        {
+          "id": 6,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 7,
+          "type": "corner"
+        },
+        {
+          "id": 8,
+          "type": "corner"
+        },
+        {
+          "id": 9,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 10,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 11,
+          "type": "corner"
+        },
+        {
+          "id": 12,
+          "type": "corner"
+        },
+        {
+          "id": 13,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 167.69
+        },
+        {
+          "id": 14,
+          "type": "corner"
+        },
+        {
+          "id": 15,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 171.67
+        },
+        {
+          "id": 16,
+          "type": "corner"
+        },
+        {
+          "id": 17,
+          "type": "corner"
+        },
+        {
+          "id": 18,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 163.79
+        },
+        {
+          "id": 19,
+          "type": "corner"
+        },
+        {
+          "id": 20,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 169.67
+        },
+        {
+          "id": 21,
+          "type": "corner"
+        },
+        {
+          "id": 22,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 159.96
+        },
+        {
+          "id": 23,
+          "type": "corner"
+        },
+        {
+          "id": 24,
+          "type": "straight",
+          "target_m/s": 90,
+          "brake_start_m_before_next": 173.7
+        },
+        {
+          "id": 25,
+          "type": "corner"
+        }
+      ],
+      "pit": {
+        "enter": false
+      }
+    }
+  ]
+}
