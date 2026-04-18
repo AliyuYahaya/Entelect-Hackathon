@@ -32,16 +32,10 @@ def load_config(path):
     with open(path, "r") as f:
         return json.load(f)
 
-def corner_max_speed(friction, radius, crawl_constant, car_max, safety_margin=0.5):
-    """
-    Compute safe corner entry speed with a safety margin.
+def corner_max_speed(friction, radius, crawl_constant, car_max):
 
-    The validator appears to use a strict comparison (v_entry >= v_max -> crash),
-    so entering at exactly the computed max gets penalised. We back off by
-    `safety_margin` m/s to sit comfortably below the threshold.
-    """
     v = math.sqrt(friction * G * radius) + crawl_constant
-    v = min(v, car_max) - safety_margin
+    v = min(v, car_max)
     return max(v, crawl_constant)  # never go below crawl speed
 
 def group_corners(segments):
@@ -332,20 +326,3 @@ if __name__ == "__main__":
     with open("Output.txt", "w") as f:
         json.dump(output, f, indent=2)
 
-    # Diagnostics
-    print(f"Tyre: Soft (dry friction = {friction:.4f})")
-    print("Corner entry speeds (m/s):")
-    segs = config["track"]["segments"]
-    for i, s in enumerate(segs):
-        if s["type"] == "corner":
-            print(f"  seg {s['id']} r={s['radius_m']}m -> {corner_speeds[i]:.3f}")
-
-    est_time = simulate(config, output)
-    print(f"\nEstimated total race time: {est_time:.3f} s")
-    ref = config["race"]["time_reference_s"]
-    if est_time > 0:
-        score = 500000 * (ref / est_time) ** 3
-        print(f"Reference time: {ref} s")
-        print(f"Estimated base score: {score:,.0f}")
-
-    print(f"\nWrote submission to output.txt")
